@@ -506,7 +506,8 @@ img {
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: baseline;
+  justify-content: flex-start
   margin: 0 auto;
 }
 .adress-logo {
@@ -518,6 +519,7 @@ img {
   letter-spacing: 0.03em;
   display: block;
   margin-bottom: 20px;
+  width: 145px;
 }
 .adress-logo:hover,
 .adress-logo:focus {
@@ -685,8 +687,11 @@ img {
   width: calc(100% / 3 - 30px);
   font-family: "Roboto", sans-serif;
 }
-.examples-item:hover,
-.examples-item:focus {
+.examples-link {
+  display: block;
+}
+.examples-link:hover,
+.examples-link:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
