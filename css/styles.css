@@ -712,7 +712,7 @@ img {
 }
 .examples-title:hover,
 .examples-title:focus {
-  text-decoration-color: var(--main-color);
+color: var(--main-color);
 }
 .examples-box {
   padding: 20px 24px;
@@ -731,5 +731,5 @@ img {
 }
 .examles-describe:hover,
 .examles-describe:focus {
- text-decoration-color: var(--main-color);
+ color: var(--main-color);
 }
