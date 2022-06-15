@@ -102,8 +102,6 @@ body {
   color: var(--header-color);
 
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .link-nav:hover,
 .link-nav:focus,
@@ -118,6 +116,8 @@ body {
 .contacts {
   display: flex;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts .contacts-item + .contacts-item {
   margin-left: 50px;
@@ -208,7 +208,6 @@ body {
 .benefits-list {
   display: block;
   display: flex;
-  margin-right: 30px;
 }
 .benefits-list:last-child {
   margin-right: 0;
@@ -263,10 +262,12 @@ body {
   margin-right: 0;
 }
 .benefits-points {
+  margin-right: 30px;
+}
+.benefits-box {
+  margin-bottom: 30px;
 }
 .benefits-link {
-  margin-left: 30px;
-  margin-bottom: 30px;
   display: flex;
   background: var(--main-team-color);
   border-radius: 4px;
@@ -275,8 +276,8 @@ body {
   width: 270px;
   height: 120px;
 }
-.benefits-link:first-child {
-  margin-left: 0;
+.benefits-points:last-child {
+  margin-right: 0;
 }
 /*--------------------Section works--------------*/
 .works {
@@ -402,7 +403,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--contacts-color);
   display: block;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 .team-position:hover,
 .team-position:focus {
@@ -664,7 +665,7 @@ img {
   border: none;
 }
 .portfolio-btn:hover,
-.portfolio-btn:hover {
+.portfolio-btn:focus {
   color: var(--main-bgd-color);
   background: var(--main-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
